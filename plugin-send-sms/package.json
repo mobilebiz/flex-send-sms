@@ -1,0 +1,22 @@
+{
+  "name": "plugin-send-sms",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "start": "twilio flex:plugins:start",
+    "build": "twilio flex:plugins:build",
+    "deploy": "twilio flex:plugins:deploy --changelog='Deploy at '+`date +%Y%m%d_%H%M%S`"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "flex-plugin-scripts": "4.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "dotenv-webpack": "^7.0.3",
+    "react-test-renderer": "^16.13.1"
+  }
+}
