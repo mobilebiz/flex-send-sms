@@ -1,6 +1,6 @@
 {
   "name": "send-sms",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Send SMS via Flex plugin",
   "main": "index.js",
   "scripts": {

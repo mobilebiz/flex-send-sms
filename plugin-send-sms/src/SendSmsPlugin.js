@@ -26,6 +26,9 @@ export default class SendSmsPlugin extends FlexPlugin {
       <Tab label='SMS' key='SmsPanel-tab'>
         <SmsPanel key='SmsPanel-component' />
       </Tab>,
+      {
+        sortOrder: 10,
+      },
     );
   }
 
